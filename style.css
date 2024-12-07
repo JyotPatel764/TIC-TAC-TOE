@@ -1,0 +1,75 @@
+body {
+    background-color:darkslateblue;
+    display:flex;
+    gap : 15px;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+}
+
+#top {
+    font-family:Arial, Helvetica, sans-serif;
+    color:cornsilk;
+}
+
+#winner {
+    font-family:Arial, Helvetica, sans-serif;
+    color:cornsilk;
+
+}
+
+#new-game {
+    height:30px;
+    width:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    border-radius: 4px;
+    box-shadow: 4px 0px 5px rgba(0 , 0 , 0 , 0.4);
+    padding: 5px;
+}
+.grid-container {
+    display:grid;
+    gap :5px;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: repeat(3 , 150px);
+    grid-template-rows:  repeat(3 , 150px);
+}
+
+
+.inner-div {
+    height : 150px;
+    width : 150px;
+    border-radius : 5px;
+    box-shadow : 4px 0px 4px rgba(0 , 0 , 0 , 0.2);
+    font-size: 100px;
+    background-color: skyblue;
+
+}
+
+.top-3 {
+    border-top: none;
+}
+
+.bottom-3 {
+    border-bottom: none;
+}
+
+.right {
+     border-right: none;
+}
+
+.left {
+    border-left: none;
+}
+
+#reset-game {
+    height:30px;
+    width:100px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+    border-radius: 4px;
+    box-shadow: 4px 0px 5px rgba(0 , 0 , 0 , 0.4);
+    padding: 5px;
+}
+
